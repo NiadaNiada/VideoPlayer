@@ -15,6 +15,9 @@
 		D1CC751A24B5F2FD00395D83 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1CC751824B5F2FD00395D83 /* LaunchScreen.storyboard */; };
 		D1CC752524B5F2FE00395D83 /* VideoPlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1CC752424B5F2FE00395D83 /* VideoPlayerTests.swift */; };
 		D1CC753024B5F2FE00395D83 /* VideoPlayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1CC752F24B5F2FE00395D83 /* VideoPlayerUITests.swift */; };
+		D1CC754224B5F3A500395D83 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1CC754124B5F3A500395D83 /* PlayerView.swift */; };
+		D1CC754424B5F72900395D83 /* VideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1CC754324B5F72900395D83 /* VideoView.swift */; };
+		D1CC754824B5F98000395D83 /* VideoCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1CC754724B5F98000395D83 /* VideoCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		D1CC752B24B5F2FE00395D83 /* VideoPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1CC752F24B5F2FE00395D83 /* VideoPlayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerUITests.swift; sourceTree = "<group>"; };
 		D1CC753124B5F2FE00395D83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1CC754124B5F3A500395D83 /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+		D1CC754324B5F72900395D83 /* VideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoView.swift; sourceTree = "<group>"; };
+		D1CC754724B5F98000395D83 /* VideoCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +112,9 @@
 				D1CC751824B5F2FD00395D83 /* LaunchScreen.storyboard */,
 				D1CC751B24B5F2FD00395D83 /* Info.plist */,
 				D1CC751524B5F2FD00395D83 /* Preview Content */,
+				D1CC754124B5F3A500395D83 /* PlayerView.swift */,
+				D1CC754324B5F72900395D83 /* VideoView.swift */,
+				D1CC754724B5F98000395D83 /* VideoCard.swift */,
 			);
 			path = VideoPlayer;
 			sourceTree = "<group>";
@@ -268,8 +277,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				D1CC750E24B5F2F400395D83 /* AppDelegate.swift in Sources */,
+				D1CC754424B5F72900395D83 /* VideoView.swift in Sources */,
+				D1CC754824B5F98000395D83 /* VideoCard.swift in Sources */,
 				D1CC751024B5F2F400395D83 /* SceneDelegate.swift in Sources */,
 				D1CC751224B5F2F400395D83 /* ContentView.swift in Sources */,
+				D1CC754224B5F3A500395D83 /* PlayerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
